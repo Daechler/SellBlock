@@ -1,0 +1,13 @@
+name: SellBlock
+version: '1.0'
+main: net.daechler.sellBlock.SellBlock
+api-version: '1.21'
+authors: [ Daechler ]
+description: A simple Minecraft plugin!
+website: https://daechler.net/
+softdepend: [EconomyShopGUI, EconomyShopGUI-Premium, Vault]
+commands:
+  sellblock:
+    description: Gives or manages sell blocks.
+    usage: /sellblock give <player>
+    permission: sellblock.give
